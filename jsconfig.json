@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*"],
+      "@component/*": ["src/component/*"],
+      "@assets/*": ["assets/*"],
+      "@modules/*": ["src/modules/*"]
+    }
+  } // Make sure it's align with webpack->resolve.alias
+}
